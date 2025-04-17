@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:3000'
+    baseURL: 'https://ccl-mini-project-backend.onrender.com'
 });
 
 export const executeCode = async (code, language) => {
